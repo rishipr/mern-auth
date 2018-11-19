@@ -14,18 +14,27 @@ This project uses the following technologies:
 + [Part 2/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Frontend & Redux Setup)](https://medium.com/@rishipr/part-2-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-5fe6838fe24d)
 + [Part 3/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Linking Redux with React Components)](https://medium.com/@rishipr/part-3-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-ce7fef2a5f62)
 
-## Requirements
-+ Node.js 6+
-```
-npm install
-```
-
-## Running
+## Configuration
 Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
-
-Development mode:
+```javascript
+module.exports = {
+  mongoURI: "YOUR_MONGOURI_HERE",
+  secretOrKey: "secret"
+};
 ```
+
+## Quick Start
+```javascript
+// Install dependencies for server"
+npm install
+
+// Install dependencies for client
+npm run client-install
+
+// Run client & server with concurrently
 npm run dev
+
+// Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) video.
+For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
