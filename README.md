@@ -10,9 +10,9 @@ This project uses the following technologies:
 
 
 ## Medium Series
-+ [Part 1/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Creating the Backend)](https://medium.com/@rishipr/part-1-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-c405048e3669)
-+ [Part 2/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Frontend & Redux Setup)](https://medium.com/@rishipr/part-2-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-5fe6838fe24d)
-+ [Part 3/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Linking Redux with React Components)](https://medium.com/@rishipr/part-3-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-ce7fef2a5f62)
++ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 1 (Creating the Backend)](https://medium.com/@rishipr/part-1-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-c405048e3669)
++ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 2 (Frontend & Redux Setup)](https://medium.com/@rishipr/part-2-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-5fe6838fe24d)
++ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 3 (Linking Redux with React Components)](https://medium.com/@rishipr/part-3-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-ce7fef2a5f62)
 
 ## Configuration
 Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
