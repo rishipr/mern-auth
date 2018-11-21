@@ -11,8 +11,7 @@ This project uses the following technologies:
 
 ## Medium Series
 + [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 1 (Creating the Backend)](https://blog.bitsrc.io/full-stack-development-build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
-+ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 2 (Frontend & Redux Setup)](https://blog.bitsrc.io/full-stack-development-build-a-login-auth-app-with-mern-stack-part-2-6eac4e38ee82)
-+ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 3 (Linking Redux with React Components)](https://blog.bitsrc.io/full-stack-development-build-a-login-auth-app-with-mern-stack-part-3-88190f8db718)
+Parts 2 and 3 will be added here as they are published.
 
 ## Configuration
 Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
