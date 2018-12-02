@@ -10,22 +10,30 @@ This project uses the following technologies:
 
 
 ## Medium Series
-+ [Part 1/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Creating the Backend)](https://medium.com/@rishipr/part-1-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-c405048e3669)
-+ [Part 2/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Frontend & Redux Setup)](https://medium.com/@rishipr/part-2-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-5fe6838fe24d)
-+ [Part 3/3: Full-stack development for beginners: building a login/auth app with the MERN stack from scratch (Linking Redux with React Components)](https://medium.com/@rishipr/part-3-3-full-stack-development-for-beginners-building-a-login-auth-app-with-the-mern-stack-from-ce7fef2a5f62)
++ [Full-Stack Development: Build a Login/Auth App with MERN Stack- part 1 (Creating the Backend)](https://blog.bitsrc.io/full-stack-development-build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
++ Parts 2 and 3 will be added here as they are published.
 
-## Requirements
-+ Node.js 6+
-```
-npm install
-```
-
-## Running
+## Configuration
 Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
-
-Development mode:
+```javascript
+module.exports = {
+  mongoURI: "YOUR_MONGOURI_HERE",
+  secretOrKey: "secret"
+};
 ```
+
+## Quick Start
+```javascript
+// Install dependencies for server
+npm install
+
+// Install dependencies for client
+npm run client-install
+
+// Run client & server with concurrently
 npm run dev
+
+// Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) video.
+For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
