@@ -34,7 +34,6 @@ class Landing extends Component {
               <Link
                 to="/login"
                 style={{
-                  marginLeft: "2rem",
                   width: "140px",
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
