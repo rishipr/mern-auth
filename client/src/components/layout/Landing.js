@@ -20,7 +20,7 @@ class Landing extends Component {
             <Link
               to="/register"
               style={{
-                width: "150px",
+                width: "140px",
                 borderRadius: "3px",
                 letterSpacing: "1.5px"
               }}
@@ -32,11 +32,11 @@ class Landing extends Component {
               to="/login"
               style={{
                 marginLeft: "2rem",
-                width: "150px",
+                width: "140px",
                 borderRadius: "3px",
                 letterSpacing: "1.5px"
               }}
-              className="btn btn-large waves-effect white hoverable black-text"
+              className="btn btn-large btn-flat waves-effect white black-text"
             >
               Log In
             </Link>
