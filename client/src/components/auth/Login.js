@@ -54,12 +54,12 @@ class Login extends Component {
 
     return (
       <div className="container">
-            <div style={{ height: "40vh" }} className="container valign-wrapper">
+            <div  className="container valign-wrapper">
           <div className="col s12 center-align">
             <img src="https://static1.squarespace.com/static/53fe0c21e4b070b8a2eac501/t/57097ffa2eeb819034c4c4c4/1542582082356/?format=1500w" width= "70%" id="icon" alt="User Icon" style={{padding: "20px"}} />
         </div>
       </div>
-        <div style={{ marginTop: "4rem" }} className="row">
+        <div  className="row">
           <div className="col s8 offset-s2">
 
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
@@ -67,7 +67,7 @@ class Login extends Component {
                 <b>Login</b> below
               </h4>
               <p className="grey-text text-darken-1">
-                Don't have an account? <Link to="/register">Register</Link>
+                Link to Naveed <Link to="/register">Forgot Password</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
