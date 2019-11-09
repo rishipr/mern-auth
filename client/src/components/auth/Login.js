@@ -54,12 +54,14 @@ class Login extends Component {
 
     return (
       <div className="container">
+            <div style={{ height: "40vh" }} className="container valign-wrapper">
+          <div className="col s12 center-align">
+            <img src="https://static1.squarespace.com/static/53fe0c21e4b070b8a2eac501/t/57097ffa2eeb819034c4c4c4/1542582082356/?format=1500w" width= "70%" id="icon" alt="User Icon" style={{padding: "20px"}} />
+        </div>
+      </div>
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyboard_backspace</i> Back to
-              home
-            </Link>
+
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
                 <b>Login</b> below
