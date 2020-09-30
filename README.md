@@ -36,6 +36,9 @@ npm install && npm run client-install
 // Run client & server with concurrently
 npm run dev
 
+//run mongo-db drivers locally
+Users/mongodb/bin/mongod.exe --dbpath=/Users/MongoDB-data
+
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
