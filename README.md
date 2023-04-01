@@ -38,5 +38,14 @@ npm run dev
 
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
+## To Run Using Docker
+```bash
+#run this command inside project diretory
+docker-compose up -d
+#run the following command to see logs
+docker-compose logs
+#run the following the command to stop and delete the containers
+docker-compose down
+```
 
 For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
