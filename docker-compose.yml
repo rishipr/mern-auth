@@ -1,0 +1,31 @@
+services:
+  authserver:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    container_name: auth_server
+    volumes : 
+      - ./:/app
+    networks:
+      - app-network
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: react_client
+    volumes: 
+      - ./client:/app
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    depends_on:
+      - authserver
+networks:
+  app-network:
+    driver : bridge
+
+#Remember to change proxy in client package.json file to authserver container name
+      
