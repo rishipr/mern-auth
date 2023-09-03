@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^1.5.0",
     "classnames": "^2.2.6",
     "jwt-decode": "^2.2.0",
     "mern-auth": "file:..",
@@ -11,7 +11,7 @@
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
@@ -30,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-unicode-property-regex": "^7.22.5"
+  }
 }
