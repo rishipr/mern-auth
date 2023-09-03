@@ -21,6 +21,7 @@
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^5.3.11",
+    "nodemon": "^3.0.1",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "validator": "^13.11.0"
