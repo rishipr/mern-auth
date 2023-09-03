@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "jwt-decode": "^2.2.0",
+    "mern-auth": "file:..",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",

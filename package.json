@@ -15,13 +15,14 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
-    "concurrently": "^4.0.1",
+    "concurrently": "^8.2.1",
+    "dotenv-safe": "^8.2.0",
     "express": "^4.16.4",
     "is-empty": "^1.2.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^5.3.11",
-    "passport": "^0.4.0",
+    "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
-    "validator": "^10.9.0"
+    "validator": "^13.11.0"
   }
 }
